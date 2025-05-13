@@ -18,6 +18,10 @@ function getAge(age) {
     if (age > 65) {
         console.log("Пожилой")
     }
+
+    if (age < 0) {
+        console.log("Ошибка")
+    }
 }
 
 function round(value, precision) {
